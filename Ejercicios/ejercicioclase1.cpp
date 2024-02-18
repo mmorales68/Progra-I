@@ -2,6 +2,7 @@
 #include<cmath>
 using namespace std;
 int main(){
+
 //tabla del 4
     for (size_t i = 0; i < 10; i++){
         cout<<"4 X "<< i+1 <<" = "<<(i+1)*4<<endl;
@@ -32,6 +33,18 @@ int main(){
     }
 
     cout<<"El factorial es "<<resultadoFactorial<<endl;
+
+//Serie de Fibonacci
+    int i=0;
+    double a=1,b=0,c=0;
+   
+    while (i<50){
+        i++;
+        cout<<c<<", ";
+        c=a+b;
+        a=b; 
+        b=c;
+    }
     
     return 0;
 }
