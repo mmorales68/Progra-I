@@ -65,5 +65,17 @@ int main(){
             cout <<numeroEntrada<<" no es primo"<< endl; 
         }
     }
+
+//validar si un numero es par o impar
+
+int n;
+cout <<"Ingrese un numero para validar si es par o impar"<<endl;
+cin>>n;
+if (n%2!=0){
+    cout<<n<<" es numero impar"<<endl;
+}else{
+    cout<<n<<" es numero par"<<endl;
+}
+
     return 0;
 }
