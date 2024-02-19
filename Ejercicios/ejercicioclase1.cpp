@@ -1,5 +1,4 @@
 #include <iostream>
-#include<cmath>
 using namespace std;
 int main(){
 
@@ -45,6 +44,26 @@ int main(){
         a=b; 
         b=c;
     }
-    
+
+//validacion de numeros primos
+    int numeroEntrada;
+
+    cout<<"Ingrese un numero para verificar si es primo o no"<<endl;
+    cin>>numeroEntrada;
+        
+    if(numeroEntrada==1){
+        cout <<numeroEntrada<<" no es primo"<< endl;
+    }else{
+        int contador=2;
+        while(numeroEntrada%contador!=0){
+            contador++;      
+        }
+
+        if(contador==numeroEntrada){     
+            cout <<numeroEntrada<<" es un numero primo"<< endl;   
+        }else{
+            cout <<numeroEntrada<<" no es primo"<< endl; 
+        }
+    }
     return 0;
 }
