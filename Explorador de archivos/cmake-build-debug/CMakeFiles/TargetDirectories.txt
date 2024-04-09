@@ -1,0 +1,3 @@
+C:/Users/mmora/Desktop/U/3er Semestre/Progra I/Explorador de archivos/cmake-build-debug/CMakeFiles/Explorador_de_archivos.dir
+C:/Users/mmora/Desktop/U/3er Semestre/Progra I/Explorador de archivos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mmora/Desktop/U/3er Semestre/Progra I/Explorador de archivos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
